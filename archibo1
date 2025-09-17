@@ -1,0 +1,77 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Inicia el documento HTML y establece el idioma en español -->
+<head> <!-- Contenedor para metadatos (información sobre el documento) -->
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres a UTF-8 para soportar caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la vista para que la página sea responsiva en dispositivos móviles -->
+    <title>Mi Página Personal</title> <!-- Define el título que aparecerá en la pestaña del navegador -->
+</head> <!-- Cierra la sección de metadatos -->
+<body> <!-- Inicia el cuerpo del documento, donde va todo el contenido visible -->
+    <!-- Encabezado principal --> <!-- Comentario descriptivo de la sección -->
+    <h1>Hola, soy Juan Pérez</h1> <!-- Encabezado principal de nivel 1 -->
+    <p>Bienvenido a mi página personal. Aquí conocerás un poco más sobre mí.</p> <!-- Párrafo de texto introductorio -->
+
+    <!-- Imagen de perfil --> <!-- Comentario descriptivo de la sección -->
+    <h2>Mi Foto</h2> <!-- Encabezado de nivel 2 -->
+    <img src="imagenes/aguila.jpg" alt="Foto de perfil"> <!-- Inserta una imagen. 'src' es la ruta y 'alt' es el texto alternativo -->
+
+    <!-- Sección de hobbies --> <!-- Comentario descriptivo de la sección -->
+    <h2>Mis pasatiempos</h2> <!-- Encabezado de nivel 2 -->
+    <ul> <!-- Inicia una lista desordenada (con viñetas) -->
+        <li>Leer libros</li> <!-- Elemento de la lista -->
+        <li>Programar</li> <!-- Elemento de la lista -->
+        <li>Jugar fútbol</li> <!-- Elemento de la lista -->
+        <li>Viajar</li> <!-- Elemento de la lista -->
+    </ul> <!-- Cierra la lista desordenada -->
+
+    <!-- Tabla de estudios --> <!-- Comentario descriptivo de la sección -->
+    <h2>Mis estudios</h2> <!-- Encabezado de nivel 2 -->
+    <table border="1" cellpadding="7" cellspacing="0"> <!-- Inicia una tabla con borde, relleno de celda y sin espaciado entre celdas -->
+        <tr> <!-- Inicia una fila de la tabla (table row) -->
+            <th>Año</th> <!-- Celda de encabezado de tabla (table header) -->
+            <th>Institución</th> <!-- Celda de encabezado de tabla -->
+            <th>Título</th> <!-- Celda de encabezado de tabla -->
+        </tr> <!-- Cierra la fila de encabezados -->
+        <tr> <!-- Inicia una fila de datos -->
+            <td>2018</td> <!-- Celda de datos de tabla (table data) -->
+            <td>Colegio Nacional</td> <!-- Celda de datos de tabla -->
+            <td>Bachiller en Ciencias</td> <!-- Celda de datos de tabla -->
+        </tr> <!-- Cierra la fila de datos -->
+        <tr> <!-- Inicia otra fila de datos -->
+            <td>2022</td> <!-- Celda de datos de tabla -->
+            <td>Universidad XYZ</td> <!-- Celda de datos de tabla -->
+            <td>Ingeniería de Sistemas</td> <!-- Celda de datos de tabla -->
+        </tr> <!-- Cierra la fila de datos -->
+    </table> <!-- Cierra la tabla -->
+
+    <!-- Enlace --> <!-- Comentario descriptivo de la sección -->
+    <h2>Redes sociales</h2> <!-- Encabezado de nivel 2 -->
+    <p>Conéctate conmigo en <!-- Inicia un párrafo -->
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>. <!-- Crea un hipervínculo (ancla) que se abre en una nueva pestaña -->
+    </p> <!-- Cierra el párrafo -->
+
+    <!-- Formulario de contacto --> <!-- Comentario descriptivo de la sección -->
+    <h2>Contáctame</h2> <!-- Encabezado de nivel 2 -->
+    <form action="#" method="post"> <!-- Inicia un formulario que enviará datos por el método POST -->
+        <label for="nombre">Nombre:</label><br> <!-- Etiqueta para el campo de texto 'nombre'. `<br>` es un salto de línea -->
+        <input type="text" id="nombre" name="nombre" required><br><br> <!-- Campo de entrada de texto, es obligatorio (required) -->
+
+        <label for="correo">Correo:</label><br> <!-- Etiqueta para el campo de correo -->
+        <input type="email" id="correo" name="correo" required><br><br> <!-- Campo de entrada de tipo email, es obligatorio -->
+
+        <label for="mensaje">Mensaje:</label><br> <!-- Etiqueta para el área de texto -->
+        <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br><br> <!-- Área de texto con 5 filas y 30 columnas, es obligatoria -->
+
+        <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+    </form> <!-- Cierra el formulario -->
+
+    <!-- Comentario --> <!-- Comentario descriptivo -->
+    <!-- Esta es una página de ejemplo con HTML básico y completo --> <!-- Comentario de ejemplo -->
+</body> <!-- Cierra el cuerpo del documento -->
+<style> <!-- Inicia un bloque para definir estilos CSS internos -->
+      body { /* Selector que apunta a la etiqueta <body> */
+            background-color: blue; /* Define el color de fondo del cuerpo a azul */
+            color: white; /* Define el color del texto a blanco para mejorar la legibilidad */
+            font-family: Arial, sans-serif; /* Define la fuente del texto a Arial o una fuente sans-serif genérica */
+        } /* Cierra las reglas de estilo para el body */
+</style> <!-- Cierra el bloque de estilos -->
+</html> <!-- Cierra el documento HTML 
